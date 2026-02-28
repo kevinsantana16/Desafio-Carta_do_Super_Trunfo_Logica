@@ -62,8 +62,3 @@ Após inserir os dados da Carta 1 e Carta 2, veja o placar e descubra qual carta
 
 Projeto desenvolvido para fins de estudo e prática de fundamentos da linguagem C.
 
-
-***
-
-**Como salvar isso:**
-Basta criar um arquivo chamado `README.md` na mesma pasta onde está o seu arquivo `.c` e colar todo o texto que está dentro do bloco acima.
