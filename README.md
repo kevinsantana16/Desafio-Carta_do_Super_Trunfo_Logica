@@ -1,28 +1,34 @@
-# 🃏 Super Trunfo: Países
+# 🃏 Jogo Super Trunfo - Batalha Interativa (Em C)
 
-Este é um projeto em **C** que simula o clássico jogo de cartas "Super Trunfo", focado no cadastro e comparação de dados de cidades/estados.
+Bem-vindo à versão interativa do **Super Trunfo de Países**! Este projeto em C simula o clássico jogo de cartas, permitindo que o usuário cadastre cidades e, em seguida, **escolha estrategicamente quais atributos** entrarão na arena para o grande duelo.
 
-## 📝 Sobre o Projeto
+## 🌟 Novidades desta Versão
 
-O programa permite que o usuário cadastre duas cartas, inserindo informações reais ou fictícias sobre cidades. Após o cadastro, o sistema calcula atributos especiais (como Densidade Populacional, PIB per Capita e um "Super Poder" exclusivo) e compara as duas cartas para definir a vencedora em cada categoria.
+O jogo agora é totalmente interativo e modularizado:
+- **Menus Dinâmicos:** Um sistema de menu onde o jogador escolhe o primeiro e o segundo atributo para a batalha. O sistema é inteligente e impede que o mesmo atributo seja escolhido duas vezes.
+- **Duelo Focado:** Em vez de comparar tudo de uma vez, o jogo foca apenas nos dois atributos escolhidos pelo jogador.
+- **Soma de Atributos:** O grande vencedor da rodada é decidido pela soma dos valores dos dois atributos selecionados.
+- **Código Modular:** Implementação de funções dedicadas (`exibirMenu`, `obterNomeAtributo`, `obterValorAtributo`) que deixam o código mais limpo e organizado.
 
-**Atributos comparados:**
-* População (Maior vence)
-* Área (Maior vence)
-* PIB (Maior vence)
-* Pontos Turísticos (Maior vence)
-* Densidade Populacional (Menor vence)
-* PIB per Capita (Maior vence)
-* Super Poder (Maior vence)
+## 📋 Atributos Disponíveis para Disputa
 
-## 🚀 Como Executar
+1. População
+2. Área (km²)
+3. PIB (bilhões de reais)
+4. Pontos Turísticos
+5. Densidade Populacional *(Atenção: nesta categoria isolada, a menor vence!)*
+6. PIB per Capita
+7. Super Poder
+
+## 🚀 Como Executar o Jogo
 
 ### Pré-requisitos
-Você precisará de um compilador C instalado na sua máquina (como o `gcc`).
+Certifique-se de ter um compilador da linguagem C instalado no seu computador (como o **GCC**).
 
-### Passo a passo
-1. Clone ou baixe este repositório.
-2. Abra o terminal e navegue até a pasta onde o arquivo `main.c` (ou o nome que você deu ao seu script) está salvo.
+### Passos para compilar e rodar:
+
+1. Clone este repositório ou baixe o arquivo fonte (`main.c`).
+2. Abra o terminal (ou prompt de comando) e navegue até a pasta onde o arquivo está salvo.
 3. Compile o código com o comando:
    ```bash
    gcc main.c -o super_trunfo
